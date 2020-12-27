@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:EUK" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:EUK" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9dd16b61-eea7-4f27-a9c7-12a0938840c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mangala_V01/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mangala_V01/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mangala_V01/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mangala_V01/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mangala_V01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mangala_V01/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mangala_V01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mangala_V01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mangala_V01/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/GameController.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/GameController.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PieceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PieceController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PitController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PitController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RuleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RuleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TurnController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TurnController.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/TurnController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PitController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PieceController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RuleController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lveDutjdb0APbmJHuagDWuUy15" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dd16b61-eea7-4f27-a9c7-12a0938840c5" name="Default Changelist" comment="" />
+      <created>1608481882609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608481882609</updated>
+      <workItem from="1608481906447" duration="9452000" />
+      <workItem from="1608492116317" duration="5554000" />
+      <workItem from="1608546738570" duration="2162000" />
+      <workItem from="1609086037766" duration="8531000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1491" height="291" key="GridCell.Tab.0.bottom" timestamp="1608492033381">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="291" key="GridCell.Tab.0.bottom/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1608492033381" />
+    <state width="1491" height="291" key="GridCell.Tab.0.center" timestamp="1608492033380">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="291" key="GridCell.Tab.0.center/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1608492033380" />
+    <state width="1491" height="291" key="GridCell.Tab.0.left" timestamp="1608492033380">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="291" key="GridCell.Tab.0.left/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1608492033380" />
+    <state width="1491" height="291" key="GridCell.Tab.0.right" timestamp="1608492033381">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="291" key="GridCell.Tab.0.right/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1608492033381" />
+    <state width="1491" height="291" key="GridCell.Tab.1.bottom" timestamp="1608492033381">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="291" key="GridCell.Tab.1.bottom/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1608492033381" />
+    <state width="1491" height="291" key="GridCell.Tab.1.center" timestamp="1608492033381">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="291" key="GridCell.Tab.1.center/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1608492033381" />
+    <state width="1491" height="291" key="GridCell.Tab.1.left" timestamp="1608492033381">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="291" key="GridCell.Tab.1.left/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1608492033381" />
+    <state width="1491" height="291" key="GridCell.Tab.1.right" timestamp="1608492033381">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="291" key="GridCell.Tab.1.right/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1608492033381" />
+    <state width="1491" height="291" key="GridCell.Tab.2.bottom" timestamp="1608492033381">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="291" key="GridCell.Tab.2.bottom/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1608492033381" />
+    <state width="1491" height="291" key="GridCell.Tab.2.center" timestamp="1608492033381">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="291" key="GridCell.Tab.2.center/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1608492033381" />
+    <state width="1491" height="291" key="GridCell.Tab.2.left" timestamp="1608492033381">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="291" key="GridCell.Tab.2.left/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1608492033381" />
+    <state width="1491" height="291" key="GridCell.Tab.2.right" timestamp="1608492033381">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="291" key="GridCell.Tab.2.right/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1608492033381" />
+    <state width="1491" height="291" key="GridCell.Tab.3.bottom" timestamp="1608492033382">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="291" key="GridCell.Tab.3.bottom/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1608492033382" />
+    <state width="1491" height="291" key="GridCell.Tab.3.center" timestamp="1608492033382">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="291" key="GridCell.Tab.3.center/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1608492033382" />
+    <state width="1491" height="291" key="GridCell.Tab.3.left" timestamp="1608492033381">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="291" key="GridCell.Tab.3.left/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1608492033381" />
+    <state width="1491" height="291" key="GridCell.Tab.3.right" timestamp="1608492033382">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="291" key="GridCell.Tab.3.right/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1608492033382" />
+    <state x="93" y="93" width="1350" height="648" key="VCS.FileHistoryDialog" timestamp="1609092781410">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="VCS.FileHistoryDialog/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1609092781410" />
+    <state x="585" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609090466676">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="585" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1609090466676" />
+    <state x="377" y="114" width="637" height="558" key="find.popup" timestamp="1609088004888">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="377" y="114" width="637" height="558" key="find.popup/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1609088004888" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1609090082272">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/1920.27.1680.1012/0.0.1536.834@0.0.1536.834" timestamp="1609090082272" />
+  </component>
+</project>

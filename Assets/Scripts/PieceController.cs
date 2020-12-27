@@ -1,28 +1,30 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PieceController : MonoBehaviour
 {
     public GameObject[] pits;
     public GameObject piece;
     public RuleController ruleController;
+    public TurnController turnController;
     
     // Start is called before the first frame update
-    void Start()
-    {
-        GameStarter();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    // void Start()
+    // {
+    //     GameStarter();
+    // }
+    
     // oyunu başlatıp 4 taş dağıtan fonksiyonumuz.
     public void GameStarter()
     {
+        for (int index = 0; index < pits.Length; index++)
+        {
+            PitCleaner(index);
+        }
+      
         // Hazine dışındaki kuyularda 4 tane taş oluşturucu.
         for (int index = 0; index < pits.Length; index++)
         {
@@ -34,16 +36,20 @@ public class PieceController : MonoBehaviour
                 PieceSeter(pits[index].transform);
             }
         }
+
+        turnController.TurnStart();
     }
     
     // verilen taşı kuyuya yerleştirir.
     public void PieceSeter(Transform pitLocation)
     {
-        var newPiece = Instantiate(piece,pitLocation.position, Quaternion.identity);
-        newPiece.transform.SetParent(pitLocation);
+        var newPiece = Instantiate(piece,pitLocation.Find("Pieces").position, Quaternion.identity);
+        newPiece.name = "Piece";
+        newPiece.transform.SetParent(pitLocation.Find("Pieces"));
         newPiece.transform.localPosition = new Vector2(UnityEngine.Random.Range(-0.05f,0.05f),UnityEngine.Random.Range(-0.05f,0.05f));
+        
     }
-
+    
     // Taşları kuyulara dağıtan aracı.
     public void PieceDispenser(int startPitIndex)
     {
@@ -56,7 +62,6 @@ public class PieceController : MonoBehaviour
         }
         else
         {
-            
             for (int i = 0; i <  pieceCount; i++)
             {
                 if (pitIndex > (pits.Length-1)) pitIndex = 0;
@@ -66,23 +71,24 @@ public class PieceController : MonoBehaviour
 
             pitIndex -= 1;
         }
-        ruleController.RivalPitPieceCount(pitIndex,pits[pitIndex]);
+        ruleController.LastPieceEmptyPit(pitIndex, pits[pitIndex]);
+        ruleController.RivalPitPieceCountEven(pitIndex,pits[pitIndex]);
         ruleController.LastPieceOnTreasure(pitIndex);
+        ruleController.GameOver(pits);
     }
     
     // indisi verilen kuyudaki taşları siler.
     public int PitCleaner(int pitIndex)
     {
-        var pitPieceCount = pits[pitIndex].transform.childCount;
-        foreach (Transform pieces in pits[pitIndex].transform)
+        var pitPieceCount = pits[pitIndex].GetComponent<PitController>().PieceCount();
+        for (int i = pitPieceCount - 1; i >= 0; i--)
         {
-            Destroy(pieces.gameObject);
+            DestroyImmediate(pits[pitIndex].transform.Find("Pieces").GetChild(i).gameObject);
         }
+        
         return pitPieceCount;
     }
     
-   
-
     // Belirtildiği kadar taşları hazineye taşır.
     public void PeicesToTreasure(int pitIndex,int treasurePitIndex)
     {
