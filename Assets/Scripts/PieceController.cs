@@ -10,12 +10,13 @@ public class PieceController : MonoBehaviour
     public GameObject piece;
     public RuleController ruleController;
     public TurnController turnController;
-    
+
+    private int gameMode;
     // Start is called before the first frame update
-    // void Start()
-    // {
-    //     GameStarter();
-    // }
+    void Start()
+    {
+        gameMode = PlayerPrefs.GetInt("GameMode");
+    }
     
     // oyunu başlatıp 4 taş dağıtan fonksiyonumuz.
     public void GameStarter()
@@ -53,6 +54,7 @@ public class PieceController : MonoBehaviour
     // Taşları kuyulara dağıtan aracı.
     public void PieceDispenser(int startPitIndex)
     {
+        
         var pieceCount = PitCleaner(startPitIndex);
         var pitIndex = startPitIndex;
         if (pieceCount == 1)
@@ -62,6 +64,7 @@ public class PieceController : MonoBehaviour
         }
         else
         {
+            if (gameMode == 0) pitIndex++;
             for (int i = 0; i <  pieceCount; i++)
             {
                 if (pitIndex > (pits.Length-1)) pitIndex = 0;

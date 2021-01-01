@@ -15,14 +15,14 @@ public class GameController : MonoBehaviour
 
    private int playedSet = 0;
    private float player1Score;
+   private float player2Score;
    public Text player1ScoreText;
    public Text player2ScoreText;
    public Text setText;
-   private float player2Score;
+   
    public void Start()
    {
       playedSet++;
-
       setText.text = "Set: " + playedSet + "/" + set;
       player1ScoreText.text = "Player 1 Score: " + player1Score;
       player2ScoreText.text = "Player 2 Score: " + player2Score;

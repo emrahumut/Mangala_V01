@@ -23,7 +23,7 @@ public class TurnController : MonoBehaviour
         {
             player = Player.Player2;
             player2.SetActive(true);
-            PlayMachine();
+            if (PlayerPrefs.GetInt("Machine") == 1) PlayMachine();
         }
     }
     // rakibe geçir
@@ -35,7 +35,7 @@ public class TurnController : MonoBehaviour
                 player = Player.Player2;
                 player1.SetActive(false);
                 player2.SetActive(true);
-                PlayMachine();
+                if (PlayerPrefs.GetInt("Machine") == 1) PlayMachine();
                 break;
             case Player.Player2 :
                 player = Player.Player1;

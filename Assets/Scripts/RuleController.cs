@@ -23,7 +23,10 @@ public class RuleController : MonoBehaviour
 
             case Player.Player2:
                 if (lastPitIndex != 13) turnControler.TurnPass();
-                else turnControler.PlayMachine();
+                else
+                {
+                    if (PlayerPrefs.GetInt("Machine") == 1) turnControler.PlayMachine();
+                }
                 break;
         }
     }
