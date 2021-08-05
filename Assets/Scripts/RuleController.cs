@@ -18,12 +18,14 @@ public class RuleController : MonoBehaviour
             case Player.Player1:
                 if (lastPitIndex != 6)
                     turnControler.TurnPass();
-                
                 break;
 
             case Player.Player2:
                 if (lastPitIndex != 13) turnControler.TurnPass();
-                else turnControler.PlayMachine();
+                else
+                {
+                    if (PlayerPrefs.GetInt("Machine") == 1) turnControler.PlayMachine();
+                }
                 break;
         }
     }
@@ -31,14 +33,14 @@ public class RuleController : MonoBehaviour
     // Rakip kuyunun taşını çift yapma durumu.
     public void RivalPitPieceCountEven(int lastPitIndex, GameObject pit)
     {
-        if (pit.GetComponent<PitController>().PieceCount() % 2 == 0)
+        if (pit.GetComponent<PitController>().PieceCount() % 2 == 0 && pit.GetComponent<PitController>().treasure == false)
         {
             switch (turnControler.CurrentPlayer())
             {
                 case Player.Player1:
                     if (pit.GetComponent<PitController>().player == Player.Player2)
                     {
-                        pieceControler.PeicesToTreasure(lastPitIndex,6);
+                        StartCoroutine(pieceControler.PeicesToTreasure(lastPitIndex,6));
                     }
 
                     break;
@@ -46,7 +48,7 @@ public class RuleController : MonoBehaviour
                 case Player.Player2:
                     if (pit.GetComponent<PitController>().player == Player.Player1)
                     {
-                        pieceControler.PeicesToTreasure(lastPitIndex,13);
+                        StartCoroutine(pieceControler.PeicesToTreasure(lastPitIndex,13));
                     }
                     break;
             }
@@ -63,8 +65,8 @@ public class RuleController : MonoBehaviour
                 case Player.Player1:
                     if (pit.GetComponent<PitController>().player == Player.Player1)
                     {
-                        pieceControler.PeicesToTreasure(lastPitIndex,6);
-                        pieceControler.PeicesToTreasure((12 - lastPitIndex), 6);
+                        StartCoroutine(pieceControler.PeicesToTreasure(lastPitIndex,6));
+                        StartCoroutine(pieceControler.PeicesToTreasure((12 - lastPitIndex), 6));
                     }
 
                     break;
@@ -72,8 +74,8 @@ public class RuleController : MonoBehaviour
                 case Player.Player2:
                     if (pit.GetComponent<PitController>().player == Player.Player2 && pit.GetComponent<PitController>().treasure == false)
                     {
-                        pieceControler.PeicesToTreasure(lastPitIndex,13);
-                        pieceControler.PeicesToTreasure((12 - lastPitIndex), 13);
+                        StartCoroutine(pieceControler.PeicesToTreasure(lastPitIndex,13));
+                        StartCoroutine(pieceControler.PeicesToTreasure((12 - lastPitIndex), 13));
                     }
                     break;
             }
@@ -113,7 +115,7 @@ public class RuleController : MonoBehaviour
                 var pitController = pits[index].GetComponent<PitController>();
                 if (pitController.treasure == false)
                 {
-                    pieceControler.PeicesToTreasure(index,(player1Pieces == 0 ? 6 : 13));
+                    StartCoroutine(pieceControler.PeicesToTreasure(index,(player1Pieces == 0 ? 6 : 13)));
                 }
             }
 
