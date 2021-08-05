@@ -20,10 +20,13 @@ public class PitController : MonoBehaviour
 
     public void OnMouseDown()
     {
-        PieceCount();
-        if (turnController.CurrentPlayer() == player && PieceCount() != 0)
+        if (turnController.turnBlocker == false)
         {
-            if(treasure == false) pieceController.PieceDispenser(int.Parse(gameObject.name.Split('_')[1]));
+            PieceCount();
+            if (turnController.CurrentPlayer() == player && PieceCount() != 0)
+            {
+                if(treasure == false) StartCoroutine(pieceController.PieceDispenser(int.Parse(gameObject.name.Split('_')[1])));
+            }
         }
     }
 
